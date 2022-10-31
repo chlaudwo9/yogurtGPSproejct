@@ -1,0 +1,8 @@
+<resources>
+    <string-array name="usblist">
+        <item>선택해주세요.</item>
+        <item>USB</item>
+        <item>블루투스</item>
+        <item>WIFI</item>
+    </string-array>
+</resources>

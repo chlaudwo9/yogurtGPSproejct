@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <data>
+        <import type="android.view.View" />
+        <variable
+            name="analog_viewmodel"
+            type="com.example.yogurt.model.Analog_ViewModel" />
+    </data>
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_batang"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="시스템 전자장치명(배터리팩)"
+                android:textAppearance="@style/MyFontSubTitlebigPop"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.9"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1.1"
+                    android:background="@drawable/border_card_lage"
+                    android:elevation="10dp"
+                    android:orientation="vertical"
+                    android:weightSum="5.5">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_weight="1.5"
+                        android:weightSum="2">
+
+                        <ImageView
+                            android:id="@+id/type"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:src="@drawable/battery"></ImageView>
+
+                        <TextView
+                            android:id="@+id/insert_Error"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="230dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/border_card_button"
+                            android:gravity="center"
+                            android:elevation="10dp"
+                            android:text="에러기입"
+                            android:textAppearance="@style/MyFontSubTitlePophight"></TextView>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:text="에러코드"
+                        android:textAppearance="@style/MyFontSubTitlePop"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:text="Error Code"
+                        android:textAppearance="@style/MyFontSubTitlebigPophight"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:text="하드웨어 버전 : 1.1.1ver"
+                        android:textAppearance="@style/MyFontSubTitlePop"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:text="소프트웨어 버전 : 1.1.1ver"
+                        android:textAppearance="@style/MyFontSubTitlePop"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.9"
+                    android:orientation="vertical"
+                    android:weightSum="4">
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/border_card"
+                        android:gravity="center"
+                        android:elevation="10dp"
+                        android:text="에러기록"
+                        android:textAppearance="@style/MyFontSubTitlebigPophight"
+                        ></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:elevation="10dp"
+                        android:background="@drawable/border_card"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:elevation="10dp"
+                        android:background="@drawable/border_card"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:elevation="10dp"
+                        android:background="@drawable/border_card"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:elevation="10dp"
+                android:background="@drawable/border_card_lage"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <view
+                    class="androidx.appcompat.app.AlertController$RecycleListView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.8">
+
+                </view>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.2"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/pressed_button"
+                        android:layout_width="110dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border_card_button"
+                        android:gravity="center"
+                        android:layout_margin="10dp"
+                        android:elevation="10dp"
+                        android:text="◀"
+                        android:textAppearance="@style/MyFontSubTitlePophight"></TextView>
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border_card_button"
+                        android:gravity="center"
+                        android:layout_margin="10dp"
+                        android:text="1/3"
+                        android:elevation="10dp"
+                        android:textAppearance="@style/MyFontSubTitlebigPophight"
+
+                        ></TextView>
+
+                    <TextView
+                        android:id="@+id/next_button"
+                        android:layout_width="110dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border_card_button"
+                        android:gravity="center"
+                        android:text="▶"
+                        android:elevation="10dp"
+                        android:layout_margin="10dp"
+                        android:textAppearance="@style/MyFontSubTitlePophight"></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

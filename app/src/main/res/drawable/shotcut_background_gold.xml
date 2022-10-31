@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="315"
+    android:type="linear"
+    android:startColor="@color/colorPrimarybuttonDark"
+    android:endColor="@color/colorPrimarybuttonDark"/>
+
+    <stroke
+        android:width="0.7dp"
+        android:color="@color/buttonbordergold"
+        ></stroke>
+
+    <corners android:radius="10dp"/>
+</shape>

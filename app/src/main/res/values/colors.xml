@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#242331</color>
+    <color name="colorPrimaryDark">#242331</color>
+    <color name="colorPrimarybuttonDark">#2D2A42</color>
+    <color name="colorPrimarybuttonDarkview">#992D2A42</color>
+    <color name="buttonbordergold">#A6B985</color>
+    <color name="colorPrimaryDark2">#16131F</color>
+    <color name="colorPrimary25">#282B34</color>
+    <color name="colorPrimaryLight">#4B5061</color>
+    <color name="colorPrimaryLight2">#2F2F45</color>
+    <color name="colorPrimaryLight3">#352C40</color>
+    <color name="colorPrimaryLight4">#4D53507C</color>
+    <color name="colorDisable">#8D8D8D</color>
+    <color name="colorOn">#DC526C</color>
+    <color name="bordercolor">#F6FFBD</color>
+    <color name="backcolorOn">#66DC526C</color>
+    <color name="colorOn2">#FF5A10</color>
+    <color name="colorOn3">#AB415B</color>
+    <color name="colorOn4">#66ff0000</color>
+    <color name="colorStroke">#777777</color>
+    <color name="colorAccentStroke_wait">#FFC000</color>
+    <color name="accent">#A6B985</color>
+    <color name="colorPrimaryDark_text">#bbbbbb</color>
+    <color name="primary_text">#DDD3DF</color>
+    <color name="primary_text_enabled">#50DDD3DF</color>
+    <color name="primary_color_text">#DDD3DF</color>
+    <color name="primary_text_hight">#A251C7</color>
+    <color name="primary_text_custom">#CCffffff</color>
+    <color name="primary_text2">#000000</color>
+    <color name="secondary_text">#5E97F6</color>
+
+    <color name="colorNav">#0B74E7</color>
+    <color name="colorAccent">#0B74E7</color>
+    <color name="colorAccent2">#866AFF</color>
+
+    <color name="colorbutton1">#692F8D</color>
+    <color name="colorbutton2">#A251C7</color>
+    <color name="colorbutton1_enabled">#50692F8D</color>
+    <color name="colorbutton2_enabled">#50A251C7</color>
+    <color name="colorbutton3">#866AFF</color>
+
+    <color name="selectbutton1">#A01D1C22</color>
+    <color name="selectbutton2">#A00E0D11</color>
+
+    <color name="simpletooltip_background">@color/colorPrimaryLight3</color>
+    <color name="simpletooltip_text">#ff0000</color>
+    <color name="simpletooltip_arrow">@color/colorPrimaryLight3</color>
+
+    <color name="on">#0B74E7</color>
+    <color name="button">#A6B985</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#FF000000</color>
+    <color name="ice">#006DF2</color>
+    <color name="notice">#78B3E8</color>
+
+    <color name="blue_dark">#96090B31</color>
+    <color name="blue">#9622469C</color>
+    <color name="purple">#9d22ff</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="teal">#34ED94</color>
+    <color name="teal10">#1A34ED94</color>
+    <color name="teal20">#2634ED94</color>
+    <color name="teal30">#0034ED94</color>
+    <color name="ghost">#0034ED94</color>
+    <color name="teal2">#0034ED94</color>
+    <color name="test_blue">#403700B3</color>
+
+    <color name="colorPrimaryDarkDefault">#00242331</color>
+    <color name="progress_Start">#00DC526C</color>
+    <color name="test_color1">#660066FF</color>
+    <color name="test_color2">#97E4FF</color>
+    <color name="progress_end">#00DC526C</color>
+</resources>
